@@ -1,5 +1,5 @@
 terraform {
-/*
+
   cloud {
     organization = "jsulin"
 
@@ -7,7 +7,7 @@ terraform {
       name = "jsuworkspace"
     }
   }
-*/
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
